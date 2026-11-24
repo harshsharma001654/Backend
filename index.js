@@ -48,6 +48,10 @@ app.get('/twitter',(req,res)=>{
     res.send('Harsh.com');
 })
 
+app.get('/facebook',(req,res)=>{
+    res.send('Harshfb.com');
+})
+
 app.get('/login',(req,res)=>{
     res.send('<h1>please login first</h1>')
 })
